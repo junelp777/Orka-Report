@@ -1,0 +1,50 @@
+﻿using DevExpress.DataAccess.ObjectBinding;
+using DevExpress.XtraReports.UI;
+using DevExpress.XtraRichEdit;
+using DevExpress.XtraRichEdit.API.Native;
+using System;
+using System.Collections;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Drawing;
+using System.IO;
+using System.Text;
+
+namespace Reports.Bids.BidsProposal
+{
+    public partial class BidProposalReport1 : DevExpress.XtraReports.UI.XtraReport
+    {
+
+        public BidProposalReport1(List<PriceSettingDTO> priceSetting, List<BidProposalDTO> proposalDTO)
+        {
+            InitializeComponent();
+
+            this.DataSource = proposalDTO;
+
+            ////sub report
+            XRSubreport subReport = this.FindControl("xrSubreport1", true) as XRSubreport;
+            XtraReport reportSource = subReport.ReportSource as XtraReport;
+            (reportSource.DataSource as ObjectDataSource).DataSource = priceSetting;
+
+        }
+
+
+        //private string GetFixedRtf(string html)
+        //{
+        //    RichEditDocumentServer rds = new RichEditDocumentServer();
+        //    rds.LoadDocument(new MemoryStream(Encoding.Default.GetBytes(html)), DocumentFormat.Html);
+        //    // rds.Document.Paragraphs((rds.Document.Paragraphs.Count - 1)).LineSpacingType = ParagraphLineSpacing.Exactly;
+        //    //rds.Document.Paragraphs[0].LineSpacingType = ParagraphLineSpacing.Exactly;
+        //   // rds.Document.Paragraphs[0].LineSpacing = 1;
+        //    return rds.RtfText;
+        //}
+
+        //private void xrRichTextContent_BeforePrint(object sender, System.Drawing.Printing.PrintEventArgs e)
+        //{
+        //    XRRichText richEditor = (XRRichText)sender;
+        //    string html = richEditor.Report.GetCurrentColumnValue<string>("ContentDescription"); // If HTML is loaded from data source  
+        //    richEditor.Rtf = GetFixedRtf(html);
+        //}
+    }
+
+}
