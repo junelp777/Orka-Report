@@ -17,6 +17,7 @@ namespace Reports.ProjectManagement.ChangeOrder
         public string Details { get; set; } = string.Empty;
         public string Details2 { get; set; } = string.Empty;
         public string Details3 { get; set; } = string.Empty;
+        public List<listDetails>? DetailsList { get; set; } 
         public bool IsBillable { get; set; }
         public bool IsCompleted { get; set; }
         public decimal ExeStdPrice { get; set; }
@@ -112,5 +113,9 @@ namespace Reports.ProjectManagement.ChangeOrder
         public decimal EdtPrmPrice { get; set; }
         public decimal DocStdPrice { get; set; }
         public decimal DocPrmPrice { get; set; }
+    }
+    public class listDetails
+    {
+        public string Details { get; set; }
     }
 }

@@ -22,6 +22,12 @@ namespace Reports.ProjectManagement.ChangeOrder
                 DetailReport.Visible = false;
             }
 
+            var checkDetails3 = data.Select(x => x.Details3).FirstOrDefault();
+            if (string.IsNullOrEmpty(checkDetails3))
+            {
+                detailPage3.Visible = false;
+            }
+
             DataSource = data;
         }
 

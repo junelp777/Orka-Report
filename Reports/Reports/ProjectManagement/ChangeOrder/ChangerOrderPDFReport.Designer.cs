@@ -1325,6 +1325,8 @@
             // 
             // xrTableCell134
             // 
+            this.xrTableCell134.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[ExeStdHours]")});
             this.xrTableCell134.Font = new DevExpress.Drawing.DXFont("Arial", 7F);
             this.xrTableCell134.Multiline = true;
             this.xrTableCell134.Name = "xrTableCell134";
@@ -1332,10 +1334,13 @@
             this.xrTableCell134.StylePriority.UsePadding = false;
             this.xrTableCell134.StylePriority.UseTextAlignment = false;
             this.xrTableCell134.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
+            this.xrTableCell134.TextFormatString = "{0:N2}";
             this.xrTableCell134.Weight = 0.232724647441427D;
             // 
             // xrTableCell60
             // 
+            this.xrTableCell60.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[ExePrmHours]")});
             this.xrTableCell60.Font = new DevExpress.Drawing.DXFont("Arial", 7F);
             this.xrTableCell60.Multiline = true;
             this.xrTableCell60.Name = "xrTableCell60";
@@ -1343,10 +1348,13 @@
             this.xrTableCell60.StylePriority.UsePadding = false;
             this.xrTableCell60.StylePriority.UseTextAlignment = false;
             this.xrTableCell60.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
+            this.xrTableCell60.TextFormatString = "{0:N2}";
             this.xrTableCell60.Weight = 0.24109308958090303D;
             // 
             // xrTableCell61
             // 
+            this.xrTableCell61.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[SpmStdHours]")});
             this.xrTableCell61.Font = new DevExpress.Drawing.DXFont("Arial", 7F);
             this.xrTableCell61.Multiline = true;
             this.xrTableCell61.Name = "xrTableCell61";
@@ -1354,10 +1362,13 @@
             this.xrTableCell61.StylePriority.UsePadding = false;
             this.xrTableCell61.StylePriority.UseTextAlignment = false;
             this.xrTableCell61.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
+            this.xrTableCell61.TextFormatString = "{0:N2}";
             this.xrTableCell61.Weight = 0.23210767371861774D;
             // 
             // xrTableCell62
             // 
+            this.xrTableCell62.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[SpmPrmHours]")});
             this.xrTableCell62.Font = new DevExpress.Drawing.DXFont("Arial", 7F);
             this.xrTableCell62.Multiline = true;
             this.xrTableCell62.Name = "xrTableCell62";
@@ -1365,10 +1376,13 @@
             this.xrTableCell62.StylePriority.UsePadding = false;
             this.xrTableCell62.StylePriority.UseTextAlignment = false;
             this.xrTableCell62.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
+            this.xrTableCell62.TextFormatString = "{0:N2}";
             this.xrTableCell62.Weight = 0.21350898149561173D;
             // 
             // xrTableCell63
             // 
+            this.xrTableCell63.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[PmStdHours]")});
             this.xrTableCell63.Font = new DevExpress.Drawing.DXFont("Arial", 7F);
             this.xrTableCell63.Multiline = true;
             this.xrTableCell63.Name = "xrTableCell63";
@@ -1376,10 +1390,13 @@
             this.xrTableCell63.StylePriority.UsePadding = false;
             this.xrTableCell63.StylePriority.UseTextAlignment = false;
             this.xrTableCell63.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
+            this.xrTableCell63.TextFormatString = "{0:N2}";
             this.xrTableCell63.Weight = 0.2257841101640217D;
             // 
             // xrTableCell64
             // 
+            this.xrTableCell64.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[PmPrmHours]")});
             this.xrTableCell64.Font = new DevExpress.Drawing.DXFont("Arial", 7F);
             this.xrTableCell64.Multiline = true;
             this.xrTableCell64.Name = "xrTableCell64";
@@ -1387,10 +1404,13 @@
             this.xrTableCell64.StylePriority.UsePadding = false;
             this.xrTableCell64.StylePriority.UseTextAlignment = false;
             this.xrTableCell64.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
+            this.xrTableCell64.TextFormatString = "{0:N2}";
             this.xrTableCell64.Weight = 0.22578411037745422D;
             // 
             // xrTableCell65
             // 
+            this.xrTableCell65.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[PlStdHours]")});
             this.xrTableCell65.Font = new DevExpress.Drawing.DXFont("Arial", 7F);
             this.xrTableCell65.Multiline = true;
             this.xrTableCell65.Name = "xrTableCell65";
@@ -1398,10 +1418,13 @@
             this.xrTableCell65.StylePriority.UsePadding = false;
             this.xrTableCell65.StylePriority.UseTextAlignment = false;
             this.xrTableCell65.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
+            this.xrTableCell65.TextFormatString = "{0:N2}";
             this.xrTableCell65.Weight = 0.24443271587886842D;
             // 
             // xrTableCell67
             // 
+            this.xrTableCell67.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[PlPrmHours]")});
             this.xrTableCell67.Font = new DevExpress.Drawing.DXFont("Arial", 7F);
             this.xrTableCell67.Multiline = true;
             this.xrTableCell67.Name = "xrTableCell67";
@@ -1409,10 +1432,13 @@
             this.xrTableCell67.StylePriority.UsePadding = false;
             this.xrTableCell67.StylePriority.UseTextAlignment = false;
             this.xrTableCell67.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
+            this.xrTableCell67.TextFormatString = "{0:N2}";
             this.xrTableCell67.Weight = 0.20713494798814316D;
             // 
             // xrTableCell68
             // 
+            this.xrTableCell68.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[MdlStdHours]")});
             this.xrTableCell68.Font = new DevExpress.Drawing.DXFont("Arial", 7F);
             this.xrTableCell68.Multiline = true;
             this.xrTableCell68.Name = "xrTableCell68";
@@ -1420,10 +1446,13 @@
             this.xrTableCell68.StylePriority.UsePadding = false;
             this.xrTableCell68.StylePriority.UseTextAlignment = false;
             this.xrTableCell68.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
+            this.xrTableCell68.TextFormatString = "{0:N2}";
             this.xrTableCell68.Weight = 0.2257834204621236D;
             // 
             // xrTableCell69
             // 
+            this.xrTableCell69.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[MdlPrmHours]")});
             this.xrTableCell69.Font = new DevExpress.Drawing.DXFont("Arial", 7F);
             this.xrTableCell69.Multiline = true;
             this.xrTableCell69.Name = "xrTableCell69";
@@ -1431,10 +1460,13 @@
             this.xrTableCell69.StylePriority.UsePadding = false;
             this.xrTableCell69.StylePriority.UseTextAlignment = false;
             this.xrTableCell69.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
+            this.xrTableCell69.TextFormatString = "{0:N2}";
             this.xrTableCell69.Weight = 0.22578424829566443D;
             // 
             // xrTableCell70
             // 
+            this.xrTableCell70.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[EdtStdHours]")});
             this.xrTableCell70.Font = new DevExpress.Drawing.DXFont("Arial", 6F);
             this.xrTableCell70.Multiline = true;
             this.xrTableCell70.Name = "xrTableCell70";
@@ -1442,10 +1474,13 @@
             this.xrTableCell70.StylePriority.UsePadding = false;
             this.xrTableCell70.StylePriority.UseTextAlignment = false;
             this.xrTableCell70.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
+            this.xrTableCell70.TextFormatString = "{0:N2}";
             this.xrTableCell70.Weight = 0.23349718638569383D;
             // 
             // xrTableCell71
             // 
+            this.xrTableCell71.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[EdtPrmHours]")});
             this.xrTableCell71.Font = new DevExpress.Drawing.DXFont("Arial", 6F);
             this.xrTableCell71.Multiline = true;
             this.xrTableCell71.Name = "xrTableCell71";
@@ -1453,10 +1488,13 @@
             this.xrTableCell71.StylePriority.UsePadding = false;
             this.xrTableCell71.StylePriority.UseTextAlignment = false;
             this.xrTableCell71.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
+            this.xrTableCell71.TextFormatString = "{0:N2}";
             this.xrTableCell71.Weight = 0.22259006250486627D;
             // 
             // xrTableCell72
             // 
+            this.xrTableCell72.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[DocStdHours]")});
             this.xrTableCell72.Font = new DevExpress.Drawing.DXFont("Arial", 6F);
             this.xrTableCell72.Multiline = true;
             this.xrTableCell72.Name = "xrTableCell72";
@@ -1464,10 +1502,13 @@
             this.xrTableCell72.StylePriority.UsePadding = false;
             this.xrTableCell72.StylePriority.UseTextAlignment = false;
             this.xrTableCell72.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
+            this.xrTableCell72.TextFormatString = "{0:N2}";
             this.xrTableCell72.Weight = 0.24479544639443174D;
             // 
             // xrTableCell87
             // 
+            this.xrTableCell87.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[DocPrmHours]")});
             this.xrTableCell87.Font = new DevExpress.Drawing.DXFont("Arial", 6F);
             this.xrTableCell87.Multiline = true;
             this.xrTableCell87.Name = "xrTableCell87";
@@ -1475,6 +1516,7 @@
             this.xrTableCell87.StylePriority.UsePadding = false;
             this.xrTableCell87.StylePriority.UseTextAlignment = false;
             this.xrTableCell87.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
+            this.xrTableCell87.TextFormatString = "{0:N2}";
             this.xrTableCell87.Weight = 0.23783499006929174D;
             // 
             // xrTableCell108

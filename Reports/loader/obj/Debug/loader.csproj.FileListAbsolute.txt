@@ -42,3 +42,47 @@ C:\JUNEL\ORKAV2\DOCS\Reports Hotfix 05112023\Reports Hotfix 05112023\Reports\Rep
 C:\JUNEL\ORKAV2\DOCS\Reports Hotfix 05112023\Reports Hotfix 05112023\Reports\Reports\loader\obj\Debug\loader.csproj.CopyComplete
 C:\JUNEL\ORKAV2\DOCS\Reports Hotfix 05112023\Reports Hotfix 05112023\Reports\Reports\loader\obj\Debug\loader.exe
 C:\JUNEL\ORKAV2\DOCS\Reports Hotfix 05112023\Reports Hotfix 05112023\Reports\Reports\loader\obj\Debug\loader.pdb
+C:\JUNEL\Orka-Report\Reports\loader\bin\Debug\Templates\sample.xlsx
+C:\JUNEL\Orka-Report\Reports\loader\bin\Debug\loader.exe.config
+C:\JUNEL\Orka-Report\Reports\loader\bin\Debug\loader.exe
+C:\JUNEL\Orka-Report\Reports\loader\bin\Debug\loader.pdb
+C:\JUNEL\Orka-Report\Reports\loader\bin\Debug\DevExpress.Charts.v23.1.Core.dll
+C:\JUNEL\Orka-Report\Reports\loader\bin\Debug\DevExpress.Data.v23.1.dll
+C:\JUNEL\Orka-Report\Reports\loader\bin\Debug\DevExpress.DataAccess.v23.1.dll
+C:\JUNEL\Orka-Report\Reports\loader\bin\Debug\DevExpress.Printing.v23.1.Core.dll
+C:\JUNEL\Orka-Report\Reports\loader\bin\Debug\DevExpress.Xpo.v23.1.dll
+C:\JUNEL\Orka-Report\Reports\loader\bin\Debug\DevExpress.XtraCharts.v23.1.dll
+C:\JUNEL\Orka-Report\Reports\loader\bin\Debug\DevExpress.XtraReports.v23.1.dll
+C:\JUNEL\Orka-Report\Reports\loader\bin\Debug\Reports.dll
+C:\JUNEL\Orka-Report\Reports\loader\bin\Debug\DevExpress.Drawing.v23.1.dll
+C:\JUNEL\Orka-Report\Reports\loader\bin\Debug\DevExpress.CodeParser.v23.1.dll
+C:\JUNEL\Orka-Report\Reports\loader\bin\Debug\DevExpress.RichEdit.v23.1.Core.dll
+C:\JUNEL\Orka-Report\Reports\loader\bin\Debug\DevExpress.Office.v23.1.Core.dll
+C:\JUNEL\Orka-Report\Reports\loader\bin\Debug\DevExpress.Pdf.v23.1.Core.dll
+C:\JUNEL\Orka-Report\Reports\loader\bin\Debug\DevExpress.Pdf.v23.1.Drawing.dll
+C:\JUNEL\Orka-Report\Reports\loader\bin\Debug\DevExpress.DataVisualization.v23.1.Core.dll
+C:\JUNEL\Orka-Report\Reports\loader\bin\Debug\DevExpress.Sparkline.v23.1.Core.dll
+C:\JUNEL\Orka-Report\Reports\loader\bin\Debug\DevExpress.PivotGrid.v23.1.Core.dll
+C:\JUNEL\Orka-Report\Reports\loader\bin\Debug\DevExpress.XtraGauges.v23.1.Core.dll
+C:\JUNEL\Orka-Report\Reports\loader\bin\Debug\Reports.pdb
+C:\JUNEL\Orka-Report\Reports\loader\bin\Debug\DevExpress.Data.v23.1.xml
+C:\JUNEL\Orka-Report\Reports\loader\bin\Debug\DevExpress.DataAccess.v23.1.xml
+C:\JUNEL\Orka-Report\Reports\loader\bin\Debug\DevExpress.Printing.v23.1.Core.xml
+C:\JUNEL\Orka-Report\Reports\loader\bin\Debug\DevExpress.Xpo.v23.1.xml
+C:\JUNEL\Orka-Report\Reports\loader\bin\Debug\DevExpress.Charts.v23.1.Core.xml
+C:\JUNEL\Orka-Report\Reports\loader\bin\Debug\DevExpress.XtraCharts.v23.1.xml
+C:\JUNEL\Orka-Report\Reports\loader\bin\Debug\DevExpress.XtraReports.v23.1.xml
+C:\JUNEL\Orka-Report\Reports\loader\bin\Debug\DevExpress.Drawing.v23.1.xml
+C:\JUNEL\Orka-Report\Reports\loader\bin\Debug\DevExpress.RichEdit.v23.1.Core.xml
+C:\JUNEL\Orka-Report\Reports\loader\bin\Debug\DevExpress.Office.v23.1.Core.xml
+C:\JUNEL\Orka-Report\Reports\loader\bin\Debug\DevExpress.Pdf.v23.1.Core.xml
+C:\JUNEL\Orka-Report\Reports\loader\bin\Debug\DevExpress.Pdf.v23.1.Drawing.xml
+C:\JUNEL\Orka-Report\Reports\loader\bin\Debug\DevExpress.Sparkline.v23.1.Core.xml
+C:\JUNEL\Orka-Report\Reports\loader\bin\Debug\DevExpress.PivotGrid.v23.1.Core.xml
+C:\JUNEL\Orka-Report\Reports\loader\bin\Debug\DevExpress.XtraGauges.v23.1.Core.xml
+C:\JUNEL\Orka-Report\Reports\loader\obj\Debug\loader.csproj.AssemblyReference.cache
+C:\JUNEL\Orka-Report\Reports\loader\obj\Debug\loader.csproj.SuggestedBindingRedirects.cache
+C:\JUNEL\Orka-Report\Reports\loader\obj\Debug\loader.csproj.CoreCompileInputs.cache
+C:\JUNEL\Orka-Report\Reports\loader\obj\Debug\loader.csproj.CopyComplete
+C:\JUNEL\Orka-Report\Reports\loader\obj\Debug\loader.exe
+C:\JUNEL\Orka-Report\Reports\loader\obj\Debug\loader.pdb
