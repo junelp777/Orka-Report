@@ -17,6 +17,8 @@ namespace Reports.ProjectManagement.ChangeOrder
         public string Details { get; set; } = string.Empty;
         public string Details2 { get; set; } = string.Empty;
         public string Details3 { get; set; } = string.Empty;
+        public string Details4 { get; set; } = string.Empty;
+        public string Details5 { get; set; } = string.Empty;
         public List<listDetails>? DetailsList { get; set; } 
         public bool IsBillable { get; set; }
         public bool IsCompleted { get; set; }

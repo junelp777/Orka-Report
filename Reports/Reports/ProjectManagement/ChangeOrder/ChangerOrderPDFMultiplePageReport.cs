@@ -28,6 +28,18 @@ namespace Reports.ProjectManagement.ChangeOrder
                 detailPage3.Visible = false;
             }
 
+            var checkDetails4 = data.Select(x => x.Details4).FirstOrDefault();
+            if (string.IsNullOrEmpty(checkDetails4))
+            {
+                detailPage4.Visible = false;
+            }
+
+            var checkDetails5 = data.Select(x => x.Details5).FirstOrDefault();
+            if (string.IsNullOrEmpty(checkDetails5))
+            {
+                detailPage5.Visible = false;
+            }
+
             DataSource = data;
         }
 
