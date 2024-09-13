@@ -1601,3 +1601,4 @@ C:\JUNEL\Orka-Report\Reports\Reports\obj\Debug\Reports.csproj.CoreCompileInputs.
 C:\JUNEL\Orka-Report\Reports\Reports\obj\Debug\Reports.csproj.CopyComplete
 C:\JUNEL\Orka-Report\Reports\Reports\obj\Debug\Reports.dll
 C:\JUNEL\Orka-Report\Reports\Reports\obj\Debug\Reports.pdb
+C:\JUNEL\Orka-Report\Reports\Reports\obj\Debug\Reports.Finance.CreditMemo.CMReport.resources
