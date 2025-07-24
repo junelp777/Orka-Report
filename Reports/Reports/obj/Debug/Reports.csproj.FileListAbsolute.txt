@@ -1988,3 +1988,4 @@ C:\JUNEL\ORKAV2\pm\Orka-Report\Reports\Reports\obj\Debug\Reports.csproj.CoreComp
 C:\JUNEL\ORKAV2\pm\Orka-Report\Reports\Reports\obj\Debug\Reports.csproj.CopyComplete
 C:\JUNEL\ORKAV2\pm\Orka-Report\Reports\Reports\obj\Debug\Reports.dll
 C:\JUNEL\ORKAV2\pm\Orka-Report\Reports\Reports\obj\Debug\Reports.pdb
+C:\JUNEL\ORKAV2\pm\Orka-Report\Reports\Reports\obj\Debug\Reports.HRPortal.EmployeePoints.EmployeePointsReport.resources
