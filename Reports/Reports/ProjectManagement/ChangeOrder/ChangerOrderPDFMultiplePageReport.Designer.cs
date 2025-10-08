@@ -241,6 +241,7 @@
             this.vendorLogo = new DevExpress.XtraReports.UI.XRPictureBox();
             this.xrLabel1 = new DevExpress.XtraReports.UI.XRLabel();
             this.GroupFooter1 = new DevExpress.XtraReports.UI.GroupFooterBand();
+            this.xrRichText6 = new DevExpress.XtraReports.UI.XRRichText();
             this.xrTable4 = new DevExpress.XtraReports.UI.XRTable();
             this.xrTableRow14 = new DevExpress.XtraReports.UI.XRTableRow();
             this.xrTableCell128 = new DevExpress.XtraReports.UI.XRTableCell();
@@ -252,6 +253,7 @@
             this.xrTableRow16 = new DevExpress.XtraReports.UI.XRTableRow();
             this.xrTableCell84 = new DevExpress.XtraReports.UI.XRTableCell();
             this.xrTableCell91 = new DevExpress.XtraReports.UI.XRTableCell();
+            this.objectDataSource1 = new DevExpress.DataAccess.ObjectBinding.ObjectDataSource(this.components);
             this.detailPage3 = new DevExpress.XtraReports.UI.DetailReportBand();
             this.Detail2 = new DevExpress.XtraReports.UI.DetailBand();
             this.xrPictureBox2 = new DevExpress.XtraReports.UI.XRPictureBox();
@@ -592,7 +594,6 @@
             this.xrTableCell445 = new DevExpress.XtraReports.UI.XRTableCell();
             this.xrRichText5 = new DevExpress.XtraReports.UI.XRRichText();
             this.xrTableCell446 = new DevExpress.XtraReports.UI.XRTableCell();
-            this.objectDataSource1 = new DevExpress.DataAccess.ObjectBinding.ObjectDataSource(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.xrTable9)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTable10)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTable3)).BeginInit();
@@ -602,8 +603,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.xrRichText1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTable5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTable2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.xrRichText6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTable4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTable6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.objectDataSource1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTable12)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTable11)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTable8)).BeginInit();
@@ -617,7 +620,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.xrTable17)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTable18)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrRichText5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.objectDataSource1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this)).BeginInit();
             // 
             // DetailPage2
@@ -3368,6 +3370,7 @@
             // GroupFooter1
             // 
             this.GroupFooter1.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
+            this.xrRichText6,
             this.xrTable4});
             this.GroupFooter1.GroupUnion = DevExpress.XtraReports.UI.GroupFooterUnion.WithLastDetail;
             this.GroupFooter1.HeightF = 173.8333F;
@@ -3375,6 +3378,16 @@
             this.GroupFooter1.Name = "GroupFooter1";
             this.GroupFooter1.PageBreak = DevExpress.XtraReports.UI.PageBreak.AfterBandExceptLastEntry;
             this.GroupFooter1.StyleName = "baseControlStyle";
+            // 
+            // xrRichText6
+            // 
+            this.xrRichText6.Font = new DevExpress.Drawing.DXFont("Segoe UI", 9.75F);
+            this.xrRichText6.LocationFloat = new DevExpress.Utils.PointFloat(19.99999F, 25.83333F);
+            this.xrRichText6.Name = "xrRichText6";
+            this.xrRichText6.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrRichText6.SerializableRtfString = resources.GetString("xrRichText6.SerializableRtfString");
+            this.xrRichText6.SizeF = new System.Drawing.SizeF(609.6666F, 72.99999F);
+            this.xrRichText6.StylePriority.UseFont = false;
             // 
             // xrTable4
             // 
@@ -3509,6 +3522,11 @@
             this.xrTableCell91.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
             this.xrTableCell91.TextFormatString = "{0:$#,##0.00}";
             this.xrTableCell91.Weight = 0.42336159043784816D;
+            // 
+            // objectDataSource1
+            // 
+            this.objectDataSource1.DataSource = typeof(Reports.ProjectManagement.ChangeOrder.ChangerOrderDTOReport);
+            this.objectDataSource1.Name = "objectDataSource1";
             // 
             // detailPage3
             // 
@@ -8051,11 +8069,6 @@
             this.xrTableCell446.Visible = false;
             this.xrTableCell446.Weight = 0.34712758760784118D;
             // 
-            // objectDataSource1
-            // 
-            this.objectDataSource1.DataSource = typeof(Reports.ProjectManagement.ChangeOrder.ChangerOrderDTOReport);
-            this.objectDataSource1.Name = "objectDataSource1";
-            // 
             // ChangerOrderPDFMultiplePageReport
             // 
             this.Bands.AddRange(new DevExpress.XtraReports.UI.Band[] {
@@ -8090,8 +8103,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.xrRichText1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTable5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTable2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.xrRichText6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTable4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTable6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.objectDataSource1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTable12)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTable11)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTable8)).EndInit();
@@ -8105,7 +8120,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.xrTable17)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTable18)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrRichText5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.objectDataSource1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this)).EndInit();
 
         }
@@ -8675,5 +8689,6 @@
         private DevExpress.XtraReports.UI.XRTableCell xrTableCell445;
         private DevExpress.XtraReports.UI.XRRichText xrRichText5;
         private DevExpress.XtraReports.UI.XRTableCell xrTableCell446;
+        private DevExpress.XtraReports.UI.XRRichText xrRichText6;
     }
 }

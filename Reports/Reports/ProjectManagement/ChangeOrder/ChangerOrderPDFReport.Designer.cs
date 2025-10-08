@@ -175,6 +175,7 @@
             this.vendorLogo = new DevExpress.XtraReports.UI.XRPictureBox();
             this.xrLabel1 = new DevExpress.XtraReports.UI.XRLabel();
             this.GroupFooter1 = new DevExpress.XtraReports.UI.GroupFooterBand();
+            this.xrRichText6 = new DevExpress.XtraReports.UI.XRRichText();
             this.xrTable4 = new DevExpress.XtraReports.UI.XRTable();
             this.xrTableRow14 = new DevExpress.XtraReports.UI.XRTableRow();
             this.xrTableCell128 = new DevExpress.XtraReports.UI.XRTableCell();
@@ -192,6 +193,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.xrTable2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTable1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrRichText1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.xrRichText6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTable4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTable6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.objectDataSource1)).BeginInit();
@@ -2205,6 +2207,7 @@
             // GroupFooter1
             // 
             this.GroupFooter1.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
+            this.xrRichText6,
             this.xrTable4});
             this.GroupFooter1.GroupUnion = DevExpress.XtraReports.UI.GroupFooterUnion.WithLastDetail;
             this.GroupFooter1.HeightF = 173.8333F;
@@ -2212,6 +2215,16 @@
             this.GroupFooter1.Name = "GroupFooter1";
             this.GroupFooter1.PageBreak = DevExpress.XtraReports.UI.PageBreak.AfterBandExceptLastEntry;
             this.GroupFooter1.StyleName = "baseControlStyle";
+            // 
+            // xrRichText6
+            // 
+            this.xrRichText6.Font = new DevExpress.Drawing.DXFont("Segoe UI", 9.75F);
+            this.xrRichText6.LocationFloat = new DevExpress.Utils.PointFloat(21.66665F, 27.16665F);
+            this.xrRichText6.Name = "xrRichText6";
+            this.xrRichText6.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrRichText6.SerializableRtfString = resources.GetString("xrRichText6.SerializableRtfString");
+            this.xrRichText6.SizeF = new System.Drawing.SizeF(609.6666F, 72.99999F);
+            this.xrRichText6.StylePriority.UseFont = false;
             // 
             // xrTable4
             // 
@@ -2382,6 +2395,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.xrTable2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTable1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrRichText1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.xrRichText6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTable4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTable6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.objectDataSource1)).EndInit();
@@ -2548,5 +2562,6 @@
         private DevExpress.XtraReports.UI.XRTableRow xrTableRow16;
         private DevExpress.XtraReports.UI.XRTableCell xrTableCell84;
         private DevExpress.XtraReports.UI.XRTableCell xrTableCell91;
+        private DevExpress.XtraReports.UI.XRRichText xrRichText6;
     }
 }
