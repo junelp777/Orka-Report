@@ -3382,11 +3382,11 @@
             // xrRichText6
             // 
             this.xrRichText6.Font = new DevExpress.Drawing.DXFont("Segoe UI", 9.75F);
-            this.xrRichText6.LocationFloat = new DevExpress.Utils.PointFloat(19.99999F, 25.83333F);
+            this.xrRichText6.LocationFloat = new DevExpress.Utils.PointFloat(21.66666F, 10F);
             this.xrRichText6.Name = "xrRichText6";
             this.xrRichText6.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
             this.xrRichText6.SerializableRtfString = resources.GetString("xrRichText6.SerializableRtfString");
-            this.xrRichText6.SizeF = new System.Drawing.SizeF(609.6666F, 72.99999F);
+            this.xrRichText6.SizeF = new System.Drawing.SizeF(609.6666F, 49.66666F);
             this.xrRichText6.StylePriority.UseFont = false;
             // 
             // xrTable4
