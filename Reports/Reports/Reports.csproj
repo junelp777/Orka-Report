@@ -506,6 +506,12 @@
       <DependentUpon>CMReport.cs</DependentUpon>
     </Compile>
     <Compile Include="Finance\CreditMemo\CMReportDTO.cs" />
+    <Compile Include="Finance\CreditMemo\CM_Report.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Finance\CreditMemo\CM_Report.Designer.cs">
+      <DependentUpon>CM_Report.cs</DependentUpon>
+    </Compile>
     <Compile Include="HRPortal\EmployeePoints\EmployeePointsReport.cs">
       <SubType>Component</SubType>
     </Compile>
@@ -625,6 +631,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Finance\CreditMemo\CMReport.resx">
       <DependentUpon>CMReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Finance\CreditMemo\CM_Report.resx">
+      <DependentUpon>CM_Report.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="HRPortal\EmployeePoints\EmployeePointsReport.resx">
       <DependentUpon>EmployeePointsReport.cs</DependentUpon>

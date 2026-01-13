@@ -13,8 +13,10 @@ namespace Reports.Finance.CreditMemo
         public string Customer { get; set; }
         public string CMNO { get; set; }
         public string Date { get; set; }
-        public string Detail { get; set; }
+        public string Detail { get; set; }  // Credit for Invoice L24009-09
         public decimal Amount { get; set; }
+        public string JobName { get; set; }
+        public string ContactNo { get; set; }
 
     }
 }

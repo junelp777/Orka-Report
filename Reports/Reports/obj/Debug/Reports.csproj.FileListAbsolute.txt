@@ -1989,3 +1989,4 @@ C:\JUNEL\ORKAV2\pm\Orka-Report\Reports\Reports\obj\Debug\Reports.csproj.CopyComp
 C:\JUNEL\ORKAV2\pm\Orka-Report\Reports\Reports\obj\Debug\Reports.dll
 C:\JUNEL\ORKAV2\pm\Orka-Report\Reports\Reports\obj\Debug\Reports.pdb
 C:\JUNEL\ORKAV2\pm\Orka-Report\Reports\Reports\obj\Debug\Reports.HRPortal.EmployeePoints.EmployeePointsReport.resources
+C:\JUNEL\ORKAV2\pm\Orka-Report\Reports\Reports\obj\Debug\Reports.Finance.CreditMemo.CM_Report.resources
